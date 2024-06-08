@@ -1,0 +1,77 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.container {
+  width: 700px;
+  background-color: rgb(54, 54, 180);
+  margin: 50px auto;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+.author-flex {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px;
+
+}
+.authors {
+  border: none;
+  padding: 8px;
+  border-radius: 10px;
+  font-weight: bolder;
+  font-size: 20px;
+  flex-grow: 1;
+  margin: 5px;
+}
+.quote {
+  background-color: white;
+  padding: 10px;
+  color: black;
+  border-radius: 5px;
+}
+.random-quote
+{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(137, 137, 193);
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+}
+.author-btn
+{
+    width: 300px;
+    height: 50px;
+    border: none;
+    margin-left: 470px;
+    padding: 8px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: rgb(6, 6, 6);
+    color:rgb(250, 247, 247);
+    margin: 10px;
+    cursor: pointer;
+
+
+}
+.btn{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: rgb(232, 100, 122);
+    color:black;
+    margin: 10px;
+    cursor: pointer;
+
+
+}
